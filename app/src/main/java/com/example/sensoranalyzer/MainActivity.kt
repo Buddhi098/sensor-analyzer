@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity(), SensorEventListener {
     private var writer: PrintWriter? = null
 
     private val serverHost = "192.168.8.134" // <-- Your PC IP
-    private val serverPort = 5008
+    private val serverPort = 5010
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
