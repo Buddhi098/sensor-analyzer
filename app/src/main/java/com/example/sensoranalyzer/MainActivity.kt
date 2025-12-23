@@ -28,7 +28,6 @@ class MainActivity : ComponentActivity(), SensorEventListener {
     companion object {
         private const val TAG = "SensorCollector"
     }
-
     private lateinit var sensorManager: SensorManager
     private var accelSensor: Sensor? = null
     private var gyroSensor: Sensor? = null
